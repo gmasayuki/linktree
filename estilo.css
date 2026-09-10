@@ -1,0 +1,181 @@
+body{
+    background-image: url('imagens/fundo.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.titulo{
+    font-family: 'Comfortaa', sans-serif;
+    text-align: center;
+    color: white;
+    margin-top: 40px;
+}
+
+.foto-perfil{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    overflow: hidden;      /* corta qualquer parte da imagem que ultrapasse o círculo */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.foto-perfil img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;     /* preenche o círculo todo sem distorcer */
+    border-radius: 50%;
+}
+
+section{
+
+    background-color: transparent;
+    height: 200px;
+
+    display: flex;
+
+    flex-direction: row;
+
+    justify-content: center;
+    align-items: center;
+
+}
+
+div{
+
+    background-color: rgb(75, 75, 75);
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    font-family: 'Varela Round', sans-serif;
+    font-size: 20px;
+    color: white;
+    margin-left: 10px;
+
+}
+
+section.comum{
+
+    background-color: transparent;
+    height: 100px;
+
+    display: flex;
+
+    flex-direction: row;
+
+    justify-content: center;
+    align-items: start;
+
+    gap: 20px;
+
+}
+
+div.comum{
+    background-color: rgba(75, 75, 75, 0.5);
+    height: 90px;
+    width: 30%;
+    border-radius: 15px;
+
+    display: flex;
+    align-items: center;
+    padding-left: 20px;
+}
+
+div.comum img{
+    flex-shrink: 0;
+}
+
+div.comum span{
+    flex: 1;
+    text-align: center;
+    margin-right: 60px; 
+}
+
+section.comum2{
+
+    background-color: transparent;
+    height: 100px;
+
+    display: flex;
+
+    flex-direction: row;
+
+    justify-content: center;
+    align-items: start;
+
+    gap: 20px;
+
+}
+
+div.comum2{
+    background-color: rgba(75, 75, 75, 0.5);
+    height: 90px;
+    width: 30%;
+    border-radius: 15px;
+
+    display: flex;
+    align-items: center;
+    padding-left: 20px;
+}
+
+div.comum2 img{
+    flex-shrink: 0;
+}
+
+div.comum2 span{
+    flex: 1;
+    text-align: center;
+    margin-right: 60px; 
+}
+
+section.raro{
+
+    background-color: transparent;
+    height: 100px;
+
+    display: flex;
+
+    flex-direction: row;
+
+    justify-content: center;
+    align-items: start;
+
+    gap: 20px;
+
+}
+
+div.raro{
+    background-color: rgba(75, 75, 75, 0.5);
+    height: 90px;
+    width: 30%;
+    border-radius: 15px;
+
+    display: flex;
+    align-items: center;
+    padding-left: 20px;
+}
+
+div.raro img{
+    flex-shrink: 0;
+}
+
+div.raro span{
+    flex: 1;
+    text-align: center;
+    margin-right: 60px; 
+}
+
+div img{
+    width: 60px;
+    height: 60px;
+    object-fit: contain;
+}
+
+a.link{
+    text-decoration: none;
+    color: inherit;
+    display: contents;
+}
